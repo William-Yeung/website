@@ -202,11 +202,12 @@ section{
 }
 
 .projects .content{
+	font-size: 18px;
 	padding: 0 18px;
 	display: none;
 	overflow: hidden;
-	transition: 0.2s ease-out;
-	background-color: #d4c1db;
+	transition: 0.4s ease-out;
+	background-color: #d4c9d8;
 	border-radius: 10px;
 	border: none;
 }
@@ -240,6 +241,7 @@ section{
 
 .contact .container{
 	display: inline-flex;
+	gap: 1em;
 }
 
 .contact .instagram img{
