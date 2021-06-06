@@ -55,7 +55,7 @@ html{
 	transition: 0.4s;
 }
 .links li a:hover{
-	color:#619fb6;
+	color:#C28CAE;
 	font-size: 22px;
 	transition: 0.4s;
 }
@@ -255,7 +255,9 @@ section{
 	height: 50px;
 	width: 50px;
 	border-radius: 6px;
+	transition: 0.4s;
 }
+
 .contact .linkedin img{
 	height: 50px;
 	width: 50px;
