@@ -198,7 +198,7 @@ section{
 }
 .projects .collapsible:hover{
 	background-color: #9b83a5;
-	transition: 0.8s;
+	transition: 0.5s;
 }
 
 .projects .content{
@@ -210,6 +210,44 @@ section{
 	background-color: #d4c9d8;
 	border-radius: 10px;
 	border: none;
+}
+/* website collapsible*//*
+.projects .content .left img{
+	height: 350px;
+	width: 460px;
+	border-radius: 6px;
+
+}*/
+
+/*snake collapsible*/
+.projects .snake-content{
+	font-size: 18px;
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	transition: 0.4s ease-out;
+	background-color: #d4c9d8;
+	border-radius: 10px;
+	border: none;
+}
+.projects .column{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.projects .left {
+	width : 45%;
+}
+.projects .left img{
+	height: 380px;
+	width: 380px;
+	border-radius: 6px;
+}
+
+.projects .right{
+	width : 55%;
+	text-align: justify;
 }
 
 
@@ -281,6 +319,10 @@ section{
 		height: 350px;
 		width: 350px;
 	}
+	.projects .snake-content .column .left img{
+		height: 325px;
+		width: 325px;
+	}
 }
 
 @media(max-width: 980px){
@@ -327,4 +369,17 @@ section{
 	.about .about-content .right{
 		flex: 100%;
 	}
+
+	.projects .column{
+		width: 100%;
+	}
+	.projects .column .left{
+		display: flex;
+		justify-content: center;
+		margin: 0 auto 60px;
+	}
+	.projects .right{
+		flex: 100%;
+	}
+
 }
