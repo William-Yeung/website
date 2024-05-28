@@ -243,6 +243,18 @@ section{
 	border: none;
 }
 
+/*machine learning models collapsible*/
+.projects .MLM-content{
+	font-size: 18px;
+	padding: 0 18px;
+	display: none;
+	overflow: hidden;
+	transition: 0.4s ease-out;
+	background-color: #d4c9d8;
+	border-radius: 10px;
+	border: none;
+}
+
 /*snake collapsible*/
 .projects .snake-content{
 	font-size: 18px;
